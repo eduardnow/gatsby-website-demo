@@ -1,8 +1,12 @@
 import Rect from 'react'
 import styles from './layout.module.scss'
+import Header from './header.js'
 
-export default () => (
+export default ({ children }) => (
     <div className={styles.container}>
-        { children }
+        <Header />
+        <div className={styles.content}>
+            {children}
+        </div>
     </div>
 )
