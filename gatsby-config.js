@@ -7,7 +7,7 @@
 module.exports = {
   
   siteMetadata: {
-    title: 'Gatsby blog',
+    title: 'Modern Gatsby blog',
   },
 
   plugins: [
